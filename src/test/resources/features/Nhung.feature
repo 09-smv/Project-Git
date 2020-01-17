@@ -2,7 +2,7 @@
 Feature: Smoke step_ More_Nhung try
 
   @smoke1
-  Scenario: Predefined steps for Google
+  Scenario: Predefined steps for Google_test case
     Given I open url "https://google.com"
     Then I should see page title as "Google"
     Then element with xpath "//input[@name='q']" should be present
