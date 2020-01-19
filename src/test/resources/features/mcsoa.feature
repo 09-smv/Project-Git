@@ -1,3 +1,4 @@
+@predefined
 Feature: mcsoa
 
   @predefined1
