@@ -6,5 +6,5 @@ Feature: Smoke steps
     Given I open url "https://amazon.com"
     When I wait for 10 sec
     Then element with xpath "kjhfshi" should not be present
-
+    OK tea
     
