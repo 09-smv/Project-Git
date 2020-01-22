@@ -11,7 +11,7 @@ Feature: Smoke steps
     Then I wait for element with xpath "//*[@id='rcnt']" to be present
     Then element with xpath "//*[@id='rcnt']" should contain text "Behavior Driven Development"
 
-  @MikhailS1
+  @MikhailS2
   Scenario: Submit the form with optional fields 2
     Given I open url "http://quote-qa.portnov.com/"
     Then I should see page title as "Get a Quote"
