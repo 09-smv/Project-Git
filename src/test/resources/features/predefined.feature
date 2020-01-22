@@ -11,4 +11,3 @@ Feature: Smoke steps
     Then I wait for element with xpath "//*[@id='rcnt']" to be present
     Then element with xpath "//*[@id='rcnt']" should contain text "Behavior Driven Development"
 
-
